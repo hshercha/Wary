@@ -16,6 +16,9 @@
 		2C2553C61CF26F7000F63A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2553C41CF26F7000F63A75 /* LaunchScreen.storyboard */; };
 		2C2553D11CF26F7000F63A75 /* WaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2553D01CF26F7000F63A75 /* WaryTests.m */; };
 		2C2553DC1CF26F7000F63A75 /* WaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2553DB1CF26F7000F63A75 /* WaryUITests.m */; };
+		2C2553EA1CF2903100F63A75 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2553E91CF2903100F63A75 /* CoreLocation.framework */; };
+		2C2553EB1CF524BE00F63A75 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2553E91CF2903100F63A75 /* CoreLocation.framework */; };
+		2C335CC21CF52D380039214E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C335CC11CF52D380039214E /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,8 @@
 		2C2553D71CF26F7000F63A75 /* WaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2553DB1CF26F7000F63A75 /* WaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaryUITests.m; sourceTree = "<group>"; };
 		2C2553DD1CF26F7000F63A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2553E91CF2903100F63A75 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2C335CC11CF52D380039214E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C335CC21CF52D380039214E /* CoreMotion.framework in Frameworks */,
+				2C2553EA1CF2903100F63A75 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2553EB1CF524BE00F63A75 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,8 @@
 		2C2553A71CF26F7000F63A75 = {
 			isa = PBXGroup;
 			children = (
+				2C335CC11CF52D380039214E /* CoreMotion.framework */,
+				2C2553E91CF2903100F63A75 /* CoreLocation.framework */,
 				2C2553B21CF26F7000F63A75 /* Wary */,
 				2C2553CF1CF26F7000F63A75 /* WaryTests */,
 				2C2553DA1CF26F7000F63A75 /* WaryUITests */,
@@ -507,6 +517,7 @@
 				2C2553E21CF26F7000F63A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C2553E31CF26F7000F63A75 /* Build configuration list for PBXNativeTarget "WaryTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +526,7 @@
 				2C2553E51CF26F7000F63A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C2553E61CF26F7000F63A75 /* Build configuration list for PBXNativeTarget "WaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +535,7 @@
 				2C2553E81CF26F7000F63A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
